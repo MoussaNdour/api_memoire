@@ -1,0 +1,1 @@
+ALTER TABLE Utilisateur ADD COLUMN firebase_token VARCHAR(254);
