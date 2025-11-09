@@ -31,6 +31,8 @@ public class ClientResponseDTO implements Serializable {
 
     private String metier;
 
+    private String firebase_token;
+
     public Long getTelephone() {
         return telephone;
     }
@@ -109,5 +111,13 @@ public class ClientResponseDTO implements Serializable {
 
     public void setMetier(String metier) {
         this.metier = metier;
+    }
+
+    public String getFirebase_token() {
+        return firebase_token;
+    }
+
+    public void setFirebase_token(String firebase_token) {
+        this.firebase_token = firebase_token;
     }
 }

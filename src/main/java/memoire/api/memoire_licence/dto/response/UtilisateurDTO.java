@@ -23,6 +23,8 @@ public class UtilisateurDTO {
 
     private String role;
 
+    private String firebase_token;
+
     public String getNom() {
         return nom;
     }
@@ -77,5 +79,13 @@ public class UtilisateurDTO {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public String getFirebase_token() {
+        return firebase_token;
+    }
+
+    public void setFirebase_token(String firebase_token) {
+        this.firebase_token = firebase_token;
     }
 }

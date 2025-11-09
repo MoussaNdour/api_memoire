@@ -30,6 +30,8 @@ public class PrestataireResponseDTO {
 
     private String description;
 
+    private String firebase_token;
+
     public int getIdprestataire() {
         return idprestataire;
     }
@@ -108,5 +110,13 @@ public class PrestataireResponseDTO {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getFirebase_token() {
+        return firebase_token;
+    }
+
+    public void setFirebase_token(String firebase_token) {
+        this.firebase_token = firebase_token;
     }
 }

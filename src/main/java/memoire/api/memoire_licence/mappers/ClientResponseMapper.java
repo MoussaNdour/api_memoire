@@ -17,6 +17,7 @@ public interface ClientResponseMapper {
     @Mapping(source = "utilisateur.adresse",target = "adresse")
     @Mapping(source = "utilisateur.date_de_naissance",target = "date_de_naissance")
     @Mapping(source = "utilisateur.role", target = "role")
+    @Mapping(source = "utilisateur.firebase_token", target = "firebase_token")
     ClientResponseDTO toDTO(Client client);
 
 }
